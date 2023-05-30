@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form b</title>
+    <style>
+        form {
+            padding: 4px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Job Application </h2>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" name="" id="name">
+<br>
+<br>
+<label for="email">Email</label>
+<input type="email" name="" id="email">
+
+<br>
+<br>
+
+<label for="phone">Phone</label>
+<input type="tel" name="" id="phone">
+
+<br>
+<br>
+
+<label for="resume">Resume</label>
+<input type="file" name="resume" id="resume" >
+
+<br>
+<br>
+<label for="exp">Experience </label>
+<input type="number" name="" id="exp" placeholder="1,2,3?">
+
+<br>
+<br>
+<fieldset>
+    <legend>Skills</legend>
+    <label for="html">HTMl</label>
+    <input type="checkbox" name="" id="html">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="" id="css">
+    <label for="js">JAVASCRIPT</label>
+    <input type="checkbox" name="" id="js">
+</fieldset>
+
+<br>
+<br>
+
+<label for="edu">Higher Education </label>
+<select name="" id="edu">
+    <option value="high school">high school</option>
+    <option value="primary school">primary school</option>
+    <option value="graduation">grad</option>
+            <option value="post grad">postgrad</option>
+        </select>
+        <br>
+        <br>
+        
+        <label for="avail">Availiability: </label>
+        <br>
+        <label for="ft">full time: </label>
+        <input type="checkbox" name="" id="ft">
+        <label for="pt">part time: </label>
+        <input type="checkbox" name="" id="pt">
+        
+                <br>
+                <br>
+        
+        <label for="comments"></label>
+        <textarea name="" id="comments" cols="300" rows="10" placeholder="additional comments" ></textarea>
+        
+        
+        <label for="submit"></label>
+        <input type="submit" name="" id="submit" value=" submit ">
+    </form>
+</body>
+
+</html>
