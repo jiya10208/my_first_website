@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>html project 1</title>
+    <style>
+        legend {
+            font-weight: bold;
+            font-size: 1.8em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Jiya</legend>
+        <div class="contact">
+            <p>Contact: <a href="mailto:jiya102082004@gmail.com" target="_blank">jiya102082004@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank"> https://www.linkedin.com/feed/</a>
+            </p>
+            <p>Github: <a href="https://github.com/jiya10208" target="_blank">https://github.com/jiya10208</a></p>
+
+        </div>
+        <br>
+
+        <div class="about" class="image">
+            <img src="https://drive.google.com/file/d/1wnctvx_WsFnepMmcH0wBZYyHC7gxZ1SO/view?usp=sharing"
+                alt="jiya image">
+            <p>I am passionate student who is eager to learn and apply all the algorithms into the practical life. I am
+                constantly working on my skills and stay up-to-date with the latest advancement in the field of software
+                development</p>
+
+        </div>
+
+    </fieldset>
+
+    <div class="education">
+        <FIEldset>
+            <legend> Education </legend>
+            <ul>
+                <li>Bachelor of Technology in Information Technology, Indira Gandhi Delhi Technical university </li>
+                <li>Rajkiya Pratibha Vikas Vidyalayas Delhi</li>
+            </ul>
+        </FIEldset>
+
+    </div>
+
+    <div class="workEx">
+
+
+    </div>
+
+    <div class="skills">
+        <fieldset>
+            <legend>Skills </legend>
+            <ul>
+                <li> Programming language: C++ </li>
+                <li> Additional technical skills: HTML , CSS</li>
+                <li>Soft skills
+                    <ol>
+                        <li>content writing</li>
+                        <li>Time management</li>
+                        <li>Problem Solving</li>
+                        <li>Active listening</li>
+                    </ol>
+                </li>
+            </ul>
+        </fieldset>
+
+    </div>
+
+    <div class="achivements">
+        <fieldset>
+            <legend> Achivements</legend>
+            <ul>
+                <li>GSSOC'23</li>
+
+                <li> Books written and published
+                    <ol>
+                        <li> 15 Notes For My Love</li>
+                        <li> Affiliation or Hope</li>
+                    </ol>
+                </li>
+
+                <li> Received Scholarships
+                    <ol>
+                        <li> L'Oréal India For Young Women in Science Scholarship'22</li>
+                        <li>NMMS 2017</li>
+                    </ol>
+                </li>
+            </ul>
+        </fieldset>
+
+
+    </div>
+    <div class="projects">
+
+
+    </div>
+
+
+
+</body>
+
+</html>
