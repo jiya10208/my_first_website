@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            padding: 0%;
+            margin: 0px;
+            padding-top: 0;
+            font-family: 'Geologica', sans-serif;
+        }
+
+
+        /* navbar */
+        nav {
+            margin: 0%;
+            background-color: black;
+            color: white;
+            height: 12vh;
+            font-size: 4vh;
+            width: 100%;
+            padding: 0px;
+            text-decoration: none;
+
+
+        }
+
+        nav ul {
+            list-style: none;
+            padding-left: 3px !important;
+
+        }
+
+        nav li {
+            display: inline-block;
+        }
+
+        nav li a {
+            color: white;
+            text-decoration-line: none;
+        }
+
+        /* for both submit now and sign in */
+        .buttons {
+            border-radius: 6px;
+            width: 13vh;
+            height: 4vh;
+            font-size: 2vh;
+        }
+
+        /* sign in button in navbar */
+        #signIn {
+            background-color: blue;
+            color: white;
+            border-radius: 3px;
+        }
+
+        /* navbar image  */
+
+        nav img {
+            height: 6vh;
+            margin-top: 1vh;
+
+        }
+
+        /*  navbar right part  */
+        .rightNav {
+            position: fixed;
+            top: 7vh;
+            right: 10px;
+        }
+
+        /* navbar  */
+
+
+        /*  section 1 how can we help  */
+        .help {
+            padding: 0%;
+            height: 59vh;
+            background-color: #d3d5fd;
+            padding-top: 15px;
+            text-align: center;
+            /* overflow: hidden; */
+        }
+
+        /*  managing font of section 1, how can we help */
+        h2 {
+            /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+            font-family: 'Geologica', sans-serif;
+            font-size: 14vh;
+
+            margin-bottom: 17px;
+        }
+
+        #Searching {
+            height: 10vh;
+            /* display: block; */
+            width: 69%;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+
+        /* content */
+        .box {
+            
+            display: inline-block;
+            width: 48%;
+            height: 58vh;
+           
+
+        }
+
+        .mainContent {
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        table{
+            margin-left: 7px;
+        }
+
+        /* footer */
+
+        footer {
+            background-color: black;
+            color: white;
+
+        }
+
+        .conclusion {
+
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box1 {
+            width: 15%;
+            margin: 6px;
+            margin-top: 14px;
+            /* background-color: yellowgreen; */
+
+        }
+
+        .box1 li {
+            text-decoration: none;
+        }
+
+        .box1 ul {
+            list-style: none;
+            display: inline-block;
+            text-decoration: none;
+            padding-left: 3px !important;
+
+        }
+
+        footer img {
+            height: 5vh;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <ul class="leftnNav">
+                <a href="#"><img src="navbar.png" alt=""></a>
+
+                <li><a href="#"> Abstract </a>| <a href="#"> Help Center </a> </li>
+            </ul>
+
+        </div>
+
+        <div class="rightNav">
+            <label for="Submit"></label>
+            <input type="submit" name="" id="submit" value="submit Now" class="buttons">
+            <label for="signIn"></label>
+            <input type="submit" name="" id="signIn" value="sign In" class="buttons">
+        </div>
+    </nav>
+    <section class="help">
+        <div class="search bar">
+            <h2 class="help1"> How can we Help?</h2>
+            <label for="Searching"></label>
+            <input type="text" name="" id="Searching" value="search" width="">
+
+        </div>
+
+    </section>
+    <section>
+
+        <div class="mainContent">
+
+            <div class=" branch box">
+                <table width="48%">
+                    <tr>
+                        <td class="image" rowspan="3">
+                            <img src="branches.png" alt="">
+                        </td>
+                        <td class="title" colspan="2">
+                            <h3>Branches</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content" colspan="2">
+                            Abstract Branches lets you manage, version, and document your designs in one place.
+                        </td>
+    
+                    </tr>
+                    <tr>
+                        <td class="link learnMore" colspan="2"><a href="#">Learn More --- ></a></td>
+                    </tr>
+    
+                </table>
+            </div>
+    
+            <div class="account box">
+                <table width="48%">
+                    <tr>
+                        <td class="image" rowspan="3">
+                            <img src="account.png" alt="">
+                        </td>
+                        <td class="title" colspan="2">
+                            <h3> Manage your account</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content" colspan="2">configure you account setting, such as your email, profile details
+                            and password.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="link learnMore" colspan="2"><a href="#">Learn More ---></a></td>
+                    </tr>
+    
+                </table>
+            </div>
+    
+            <div class="organizationProject box">
+                <table width="49%">
+                    <tr width="90vh">
+                        <td class="image" rowspan="3"><img src="organizationProject.png" alt=""></td>
+                        <td class="title" colspan="2">
+                            <h3> manage organizations, teams and Project</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content" colspan="2">Use Abstract organizations, teams and Projects to organize your
+                            project and
+                            your work. </td>
+                    </tr>
+                    <tr>
+                        <td class="link learnMore" colspan="2"><a href="#">Learn More --- ></a></td>
+                    </tr>
+    
+                </table>
+            </div>
+    
+            <div class="billing box">
+                <table>
+                    <tr>
+                        <td class="image" rowspan="3">
+                            <img src="billing.png" alt="">
+                        </td>
+                        <td class="title " colspan="2">
+                            <h3> Manage billing </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content" colspan="2">hange subsciption and details.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="link learnMore " colspan="2"><a href="#">Learn More --- ></a></td>
+                    </tr>
+    
+                </table>
+            </div>
+    
+    
+    
+            <div class="authentication box">
+                <table width="48%">
+                    <tr>
+                        <td class="image" rowspan="3">
+                            <img src="authentication.png" alt="">
+                        </td>
+                        <td class="title" colspan="2">
+                            <h3> Authentication to Abstract </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content" colspan="2">Set up and configure SSO, SCIM and Just-in-Time provisioning
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="link learnMore" colspan="2"><a href="#">Learn More --- ></a></td>
+                    </tr>
+    
+                </table>
+            </div>
+    
+    
+            <div class="support box">
+                <table width="48%">
+                    <tr>
+                        <td class="image" rowspan="3">
+                            <img src="support.png" alt="">
+                        </td>
+                        <td class="title" colspan="2">
+                            <h3> Abstract Support </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="content" colspan="2">get in touch with a human.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="link learnMore" colspan="2"><a href="#">Learn More --- ></a></td>
+                    </tr>
+    
+                </table>
+            </div>
+    
+    
+        </div>
+    
+        </div>
+        </section>
+    <footer>
+
+        <div class="conclusion">
+            <div class="box1">
+                <h4>Abstract</h4>
+                <li>branches </li>
+            </div>
+            <div class="box1">
+                <h4>Resources</h4>
+                <li>Blog</li>
+                <li>Help Center</li>
+                <li>Release Notes</li>
+                <li>Status</li>
+            </div>
+            <div class="box1">
+                <h4>Community</h4>
+                <ul>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                    <li>Facebook</li>
+                    <li>Dribble</li>
+                    <li>Podcast</li>
+                </ul>
+            </div>
+            <div class="box1">
+                <div>
+                    <h4>company</h4>
+                    <ul>
+                        <li>About us</li>
+                        <li>Careers </li>
+                        <li>Legal</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contatc us </h4>
+                </div>
+            </div>
+
+            <div class="box1">
+                <img src="footer.png" alt="">
+                <p>
+                    Copyright 2022</p>
+                <p>Abstract Studio Design, Inc.</p>
+                <p>All rights reserved.</p>
+            </div>
+
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
